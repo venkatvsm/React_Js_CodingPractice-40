@@ -1,0 +1,13 @@
+/* Write your CSS here */
+.notFound_container {
+  font-family: 'Roboto';
+}
+.notFound_ItemsContainer {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Home_image {
+  width: 100%;
+}

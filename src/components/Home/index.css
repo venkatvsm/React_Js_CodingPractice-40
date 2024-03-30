@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.Home_containerEl {
+  min-height: 100vh;
+  font-family: 'Roboto';
+}
+.Home_ItemsContainerEl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Home_image-sg {
+  width: 100%;
+}
+.Home_image-lg {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .Home_image-sg {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .Home_image-lg {
+    display: none;
+  }
+}

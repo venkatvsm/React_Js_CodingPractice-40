@@ -1,0 +1,89 @@
+/* Write your CSS here */
+.Header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom-style: solid;
+  border-color: #dcdcdc;
+}
+.Header_image {
+  width: 20%;
+}
+@media screen and (min-width: 768px) {
+  .Header_image {
+    max-width: 80px;
+  }
+}
+.Header_popup-trigger-button {
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.menuBtn {
+  width: 20px;
+  height: 20px;
+}
+@media screen and (min-width: 768px) {
+  .menuBtn {
+    width: 40px;
+    height: 40px;
+  }
+}
+.popupContainer {
+  width: 80vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 25px;
+}
+.closeBtn_Image {
+  align-self: flex-end;
+  border: none;
+  background-color: transparent;
+  margin-left: 45px;
+  font-size: 25px;
+}
+@media screen and (min-width: 768px) {
+  .closeBtn_Image {
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+  }
+}
+.listContainer {
+  flex-grow: 1;
+  list-style-type: none;
+  padding: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.listItemsContainer {
+  padding: 0px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.items1 {
+  margin: 0px;
+  margin-left: 10px;
+}
+.link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .link {
+    font-size: 40px;
+  }
+}
